@@ -1,5 +1,166 @@
+header{
+
+    background-color: #EAC926;
+
+}
+
+#banner1{
+
+    text-align: center;
+
+}
+
+.logo{
+
+    width: 150px;
+    height: 100px;
+    margin-left: 20px;
+
+}
+
 .negrita{
 
     font-weight: bold;
+
+}
+
+.icons-footer{
+
+    color: #1259c3;
+    padding-left: 44%;
+    padding-right: 55%;
+    position: relative;
+    top: 20px;
+
+}
+
+.titulos-pie{
+
+    color: #363535;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+#copyright{
+
+    color: #666;
+    padding-left: 20px;
+
+}
+
+.textos-pie{
+
+    padding-left: 15%;
+    padding-right: 15%;
+    position: relative;
+    bottom: 14px;
+    text-align: center;
+    color: #666;
+
+}
+
+#barra-busqueda{
+
+    background-color: white;
+    color: rgba(0, 0, 0, 0.443);
+    padding-left: 2px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-weight: 400;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    position: relative;
+    right: 150px; 
+
+}
+
+.menu-hamburguesa{
+
+    width: auto;
+    height: auto;
+    background-color: #1259c3;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    position: relative;
+    left: 200px;
+
+}
+
+.search-icon{
+
+    background-color: white;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    position: relative;
+    top: 4px;
+    left: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+body{
+
+    font-family: "Roboto", "sans-serif";
+    font-weight: normal;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    text-align: left;
+    padding: 0;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color:black;
+}
+
+h2{
+
+    font-size: 24px
+
+}
+
+.precios{
+
+    font-size: 18px;
+
+}
+
+.descuentos{
+
+    font-size: 16px;
+
+}
+
+.descripciones{
+
+    font-size: 16px;
 
 }
