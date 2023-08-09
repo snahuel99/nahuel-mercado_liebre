@@ -1,36 +1,169 @@
-header{
+* {
+    box-sizing: border-box;
+}
 
-    background-color: #EAC926;
+body{
+
+    font-family: "Roboto";
+    margin: 0;
+    padding: 0;
+    background-color: #ebebeb;
 
 }
 
-#banner1{
+main{
 
-    text-align: center;
+    width: 90%;
+    margin: auto;
+
+}
+
+.main-header{
+
+    background-color: #EAC926;
+    padding: 20px;
 
 }
 
 .logo{
 
     width: 150px;
-    height: 100px;
-    margin-left: 20px;
+    display: block;
 
 }
 
-.negrita{
+.main-search-bar{
 
-    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.search-bar{
+
+    background-color: white;
+    color: rgba(0, 0, 0, 0.443);
+    padding: 3px;
+    padding-right: 10px;
+    font-weight: 400;
+    border-radius: 2px;
+    border: solid 1px black;
+    max-width: 55%;
+
+}
+
+.search-icon{
+
+    display: block;
+    background-color: white;
+    border-radius: 2px;
+    border: solid 1px black;
+    padding: 5px 1px;
+    margin: 0;
+
+}
+
+.copy-header{
+
+    text-align: center;
+
+}
+
+.main-navbar{
+
+    display: none;
+
+}
+
+.main-navbar ul{
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.main-navbar a{
+
+    text-decoration: none;
+    color: black;
+
+}
+
+.hamburguer-menu{
+
+    display: block;
+    background-color: #1259c3;
+    color: white;
+    padding: 15px;
+    border-radius: 6px;
+    font-size: 24px;
+    max-width: max-content;
+    margin: auto;
+
+}
+
+.banner-header{
+
+    width: 100%;
+
+}
+
+.main-product-section article{
+
+    margin-bottom: 10px;
+
+}
+
+
+
+.main-product-section h2{
+
+    font-size: 24px;
+    font-weight: 400;
+    color: #666666;
+
+}
+
+.main-product-section img{
+
+    width: 100%;
+
+}
+
+.product-description{
+
+    background-color: white;
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+
+}
+
+.product-description i{
+
+    color: #39b54a;
+    border: solid 1px #39b54a;
+    border-radius: 100%;
+    padding: 16px 14px;
+
+}
+
+.main-footer-section{
+
+    padding: 15px;
+    width: 70%;
+    margin: auto;
+    margin-top: 30px
 
 }
 
 .icons-footer{
 
+    display: block;
     color: #1259c3;
-    padding-left: 44%;
-    padding-right: 55%;
-    position: relative;
-    top: 20px;
+    margin: auto;
+    text-align: center;
 
 }
 
@@ -40,6 +173,15 @@ header{
     text-align: center;
     font-weight: bold;
     font-size: 16px;
+    margin-bottom: 0;
+
+}
+
+.textos-pie{
+
+    text-align: center;
+    color: #666;
+    margin-top: 0;
 
 }
 
@@ -50,117 +192,49 @@ header{
 
 }
 
-.textos-pie{
-
-    padding-left: 15%;
-    padding-right: 15%;
-    position: relative;
-    bottom: 14px;
-    text-align: center;
-    color: #666;
-
-}
-
-#barra-busqueda{
-
-    background-color: white;
-    color: rgba(0, 0, 0, 0.443);
-    padding-left: 2px;
-    padding-right: 10px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    font-weight: 400;
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 2px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: black;
-    position: relative;
-    right: 150px; 
-
-}
-
-.menu-hamburguesa{
-
-    width: auto;
-    height: auto;
-    background-color: #1259c3;
-    color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
-    border-bottom-right-radius: 6px;
-    border-bottom-left-radius: 6px;
-    position: relative;
-    left: 200px;
-
-}
-
-.search-icon{
-
-    background-color: white;
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 2px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: black;
-    position: relative;
-    top: 4px;
-    left: 24px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-
-}
-
-body{
-
-    font-family: "Roboto", "sans-serif";
-    font-weight: normal;
-    font-size: 12px;
-    margin: 0;
-    padding: 0;
-}
-
-ul {
-    list-style: none;
-    text-decoration: none;
-    color: black;
-    text-align: left;
-    padding: 0;
-}
-
-a:link, a:visited, a:active {
-    text-decoration:none;
-    color:black;
-}
-
-h2{
-
-    font-size: 24px
-
-}
-
 .precios{
 
     font-size: 18px;
+    margin-bottom: 0;
+    margin-top: 0;
 
 }
 
 .descuentos{
 
     font-size: 16px;
+    margin-top: 0;
+    color: #39b54a;
 
 }
 
 .descripciones{
 
+    display: none;
     font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+
+}
+
+@media (min-width: 480px){
+
+    .descripciones{
+
+        display: block;
+
+    }
+
+    .hamburguer-menu{
+
+        display: none;
+
+    }
+
+    .main-navbar{
+
+        display: block;
+
+    }
 
 }
