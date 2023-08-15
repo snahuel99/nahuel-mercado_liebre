@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
 
 body{
@@ -23,20 +25,22 @@ main{
     background-color: #EAC926;
     padding: 20px;
 
+
+}
+
+.main-header-top-var{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 .logo{
 
-    width: 150px;
+    width: 40%;
     display: block;
-
-}
-
-.main-search-bar{
-
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
 
 }
 
@@ -44,29 +48,27 @@ main{
 
     background-color: white;
     color: rgba(0, 0, 0, 0.443);
-    padding: 3px;
-    padding-right: 10px;
+    padding: 10px;
     font-weight: 400;
-    border-radius: 2px;
-    border: solid 1px black;
-    max-width: 55%;
+    font-size: 14px;
+    border-radius: 6px;
+    max-width: fit-content;
 
 }
 
 .search-icon{
 
-    display: block;
     background-color: white;
-    border-radius: 2px;
-    border: solid 1px black;
-    padding: 5px 1px;
-    margin: 0;
+    padding: 2px;
 
 }
 
 .copy-header{
 
     text-align: center;
+    margin: auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
 
 }
 
@@ -113,6 +115,7 @@ main{
 .main-product-section article{
 
     margin-bottom: 10px;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
 
 }
 
@@ -123,6 +126,8 @@ main{
     font-size: 24px;
     font-weight: 400;
     color: #666666;
+    margin-top: 30px;
+    margin-bottom: 15px;
 
 }
 
@@ -137,6 +142,11 @@ main{
     background-color: white;
     border-top: solid 1px #ebebeb;
     padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
 
 }
 
@@ -145,7 +155,23 @@ main{
     color: #39b54a;
     border: solid 1px #39b54a;
     border-radius: 100%;
-    padding: 16px 14px;
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+
+}
+
+.main-footer{
+
+    margin-top: 10%;
 
 }
 
@@ -164,6 +190,7 @@ main{
     color: #1259c3;
     margin: auto;
     text-align: center;
+    margin-bottom: 10px;
 
 }
 
@@ -172,7 +199,7 @@ main{
     color: #363535;
     text-align: center;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 20px;
     margin-bottom: 0;
 
 }
@@ -188,7 +215,8 @@ main{
 #copyright{
 
     color: #666;
-    padding-left: 20px;
+    padding-left: 5%;
+    margin: 20px 0;
 
 }
 
@@ -197,6 +225,8 @@ main{
     font-size: 18px;
     margin-bottom: 0;
     margin-top: 0;
+    width: 30%;
+    margin: 10px 0;
 
 }
 
@@ -205,6 +235,8 @@ main{
     font-size: 16px;
     margin-top: 0;
     color: #39b54a;
+    width: 70%;
+    margin: 10px 0;
 
 }
 
@@ -214,16 +246,38 @@ main{
     font-size: 16px;
     font-weight: 400;
     color: #666666;
+    margin: 10px 0;
 
 }
 
-@media (min-width: 480px){
+@media (min-width: 768px){
 
-    .descripciones{
 
-        display: block;
+    .logo{
+
+        width: 30%;
 
     }
+
+    .search-bar{
+
+        background-color: white;
+        color: rgba(0, 0, 0, 0.443);
+        padding: 5px;
+        font-weight: 400;
+        border-radius: 3px;
+        max-width: fit-content;
+        border: solid 1px black;
+    
+    }
+
+    .copy-header{
+
+        margin: 0;
+        width: 30%;
+
+    }
+
 
     .hamburguer-menu{
 
@@ -233,8 +287,108 @@ main{
 
     .main-navbar{
 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 20px;
+
+    }
+
+    .main-navbar ul{
+
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .main-navbar li{
+
+        margin: 0 5px;
+
+    }
+
+    .main-product-section{
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+
+    .main-product-section h2{
+
+        width: 100%;
+
+    }
+
+    .main-product-section article{
+
+        width: 45%;
+
+    }
+
+    .descripciones{
+
         display: block;
 
     }
 
+    .textos-pie{
+
+        width: 50%;
+        margin: auto;
+
+    }
+
+
+
 }
+
+@media (min-width: 1280px){
+
+    .main-header{
+
+        padding: 20px 60px;
+
+    }
+
+
+    .logo{
+
+        width: 30%;
+
+    }
+
+    .search-bar{
+
+        font-size: 18px;
+        padding: 2px;
+
+    }
+
+    .main-product-section article{
+
+        width: 22%;
+
+    }
+
+    .main-navbar li{
+
+        margin: 0 10px;
+
+    }
+
+    .precios{
+
+        width: 30%;
+
+    }
+    
+    .descuentos{
+
+        width: 60%;
+  
+    }
+
+}
+
