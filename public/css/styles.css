@@ -16,6 +16,8 @@ body{
 
     width: 90%;
     margin: auto;
+    max-width: 1500px;
+    margin-inline: auto;
 
 
 }
@@ -34,6 +36,8 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    max-width: 1500px;
+    margin-inline: auto;
 
 }
 
@@ -88,6 +92,8 @@ body{
 .main-navbar{
 
     display: none;
+    max-width: 1500px;
+    margin-inline: auto;
 
 }
 
@@ -348,6 +354,7 @@ input:invalid + .error-message {
 
     background-color: white;
     padding-top: 3%;
+    
 
 }
 
@@ -357,6 +364,7 @@ input:invalid + .error-message {
     width: 70%;
     margin: auto;
     margin-top: 30px
+    
 
 }
 
@@ -567,6 +575,7 @@ input:invalid + .error-message {
     .create-form{
 
         padding: 20px 30vw;
+        max-width: 1700px;
 
     }
 
